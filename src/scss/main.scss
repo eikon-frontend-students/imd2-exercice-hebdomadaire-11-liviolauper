@@ -12,3 +12,26 @@ img,
 video {
   display: block;
 }
+
+.btn {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  border: 2px solid #F00;
+  margin: 50px 50px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  width: fit-content;
+}
+
+span:nth-child(1),
+span:nth-child(2)  {
+  color: #F00;
+}
+
+span:nth-child(2) {
+  font-weight: 600;
+}
