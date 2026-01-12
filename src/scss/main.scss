@@ -27,12 +27,11 @@ video {
   width: fit-content;
 }
 
-span:nth-child(1),
-span:nth-child(2)  {
+.red-txt  {
   color: #F00;
 }
 
-span:nth-child(2) {
+.bold-txt {
   font-weight: 600;
 }
 
