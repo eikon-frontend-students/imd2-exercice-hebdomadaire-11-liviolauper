@@ -24,17 +24,22 @@ video {
   margin: 50px 50px;
   font-size: 18px;
   font-family: Roboto, sans-serif;
+  font-weight: 600;
   width: fit-content;
-}
-
-.red-txt  {
   color: #F00;
 }
 
-.bold-txt {
-  font-weight: 600;
+#counter {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
 }
 
-body {
-  background: grey;
+.btn.clicked {
+  color: #FFF;
+  background: #F00;
+}
+
+.btn.clicked #counter {
+  color: #FFF;
 }
